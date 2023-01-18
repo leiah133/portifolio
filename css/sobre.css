@@ -1,0 +1,28 @@
+.container{
+  height: 400px; 
+}
+.section-sobre{
+  background-color: var(--cor3);
+}
+@media (max-width:920px){
+}
+@media (max-width:805px){
+  
+}
+@media (max-width:700px){
+  
+}
+@media (max-width:600px){
+  
+
+}
+@media (max-width:510px){
+ 
+}
+@media (max-width:490px){
+  
+}
+@media (max-width:390px){
+  
+
+}

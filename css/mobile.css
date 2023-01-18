@@ -1,0 +1,222 @@
+/* Header */
+@media (max-width: 992px){
+    .bg{
+      background: var(--cor2);
+    }
+    .nav-list{
+      position: absolute;
+      top: 37px;
+      right: 0;
+      width: 50%;
+      height: 92vh;
+      background: var(--cor2);
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      display: none;
+    }
+    .nav-list li{
+      margin-top: 20px ;
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu{
+      display: block;
+    }
+  }
+@media (max-width:805px){
+    
+  }
+@media (max-width:700px){
+    
+  }
+@media (max-width:600px){
+    
+  
+  }
+@media (max-width:510px){
+   
+  }
+@media (max-width:490px){
+    
+  }
+@media (max-width:390px){
+    nav{
+      padding: 0;
+      margin: 10px ;
+    }
+    .nav-list{
+      height: 138vh;
+    }
+    .nav-list a{
+      font-size: 20px;
+    }
+    .logo img{
+      width: 120px;
+    }
+    .mobile-menu, .logo{
+      margin: 0;
+    }
+    .mobile-menu div {
+      width: 22px;
+      height: 1px;
+      background: var(--cor4);
+      margin: 8px;
+      transition: 0.3s;
+  }
+  }
+
+  
+  
+
+
+/* HOME */
+  @media (max-width:920px){
+  
+    .container{
+      margin-top: 67px;
+    }
+    .intro-desktop{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width:805px){
+    
+  }
+  @media (max-width:700px){
+    
+  }
+  @media (max-width:600px){
+    
+  
+  }
+  @media (max-width:510px){
+   
+  }
+  @media (max-width:490px){
+    
+  }
+  @media (max-width:390px){
+   .lado-direito{
+    display: none;
+   }
+   .bg-mobile{
+    width: 100%;
+    display: block;
+   }
+   .bg-mobile img{
+    margin-left: 35%;
+   }
+   .intro{
+    
+    margin-top: 150px;
+   }
+  
+  }
+
+
+/* SOBRE */
+@media (max-width:992px){
+  
+}
+@media (max-width:805px){
+    
+}
+@media (max-width:700px){
+  
+}
+@media (max-width:600px){
+  
+
+}
+@media (max-width:510px){
+ 
+}
+@media (max-width:490px){
+  
+}
+@media (max-width:390px){
+  
+}
+
+
+
+
+/* SKILLS */
+@media (max-width:992px){
+  
+}
+@media (max-width:805px){
+    
+}
+@media (max-width:700px){
+  
+}
+@media (max-width:600px){
+  
+
+}
+@media (max-width:510px){
+ 
+}
+@media (max-width:490px){
+  
+}
+@media (max-width:390px){
+  
+}
+
+
+
+
+/* PORTIFOLIO */
+@media (max-width:992px){
+  
+}
+@media (max-width:805px){
+    
+}
+@media (max-width:700px){
+  
+}
+@media (max-width:600px){
+  
+
+}
+@media (max-width:510px){
+ 
+}
+@media (max-width:490px){
+  
+}
+@media (max-width:390px){
+  
+}
+
+
+/* CONTATO */
+@media (max-width:992px){
+  
+}
+@media (max-width:805px){
+    
+}
+@media (max-width:700px){
+  
+}
+@media (max-width:600px){
+  
+
+}
+@media (max-width:510px){
+ 
+}
+@media (max-width:490px){
+  
+}
+@media (max-width:390px){
+  
+}

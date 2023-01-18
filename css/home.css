@@ -1,0 +1,18 @@
+.bg-mobile{
+  display: none;
+}
+.container{
+  margin-top: 100px;
+}
+
+.intro-desktop{
+  display: flex;
+}
+ .intro, .lado-direito{
+  width: 50%;
+  border: 2px solid var(--cor1);
+ }
+ .lado-direito img{
+  height: 400px;
+  margin-left: 350px;
+ }

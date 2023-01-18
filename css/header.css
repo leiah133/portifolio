@@ -1,0 +1,85 @@
+
+.bg-mobile{
+  display: none;
+}
+a{
+  color: var(--cor4);
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 25px;
+  margin-top: 15px;
+}
+a:hover{
+  opacity: .7;
+  color: var(--cor5)
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--cor2);
+  box-shadow: 1px 0 10px 1px var(--cor4);
+  /* z-index: 100; */
+}
+nav{
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px 20px;
+  transition: 0.3s;
+}
+.nav-list{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-top: 20px;
+}
+.logo{
+  margin-left: 20px;
+}
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: var(--cor4);
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.nav-list.active {
+  transform: translateX(0);
+  display: flex;
+}
+
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
