@@ -2,11 +2,11 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/global.css" />
 
   <title>Léiah Oliver</title>
 </head>
@@ -14,7 +14,7 @@
 <body>
   <header>
     <nav>
-      <a class="logo" href="index.html"><img src="/img/desktop/logo.svg" alt=""></a>
+      <a class="logo" href="index.html"><img src="/img/desktop/logo.svg" alt="" /></a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
@@ -32,55 +32,102 @@
 
   <main>
     <!-- Home  -->
-    <section id="home" class="container intro-desktop ">
-      <div class="bg-mobile">
-        <img src="/img/mobile/BG.svg" alt="">
-      </div>
+    <section id="home" class="container intro-desktop border-section">
       <div class="intro">
         <h1 class="h1-">Eu sou <span class="nome">Léia Oliver</span></h1>
         <h2 class="h2-">Desenvolvedora Front-End</h2>
         <div class="rede">
-          <div class="git"><img href="https://github.com/Leiah133" src="/img/desktop/btn git.svg" alt=""></div>
-          <div class="link"><img src="/img/desktop/btn link.svg" alt=""></div>
+          <div class="git">
+            <a href="https://github.com/Leiah133" target="_blank"><img href="" src="/img/desktop/btn git.svg"
+                alt="" /></a>
+          </div>
+          <div class="link">
+            <a href="https://www.linkedin.com/in/leiaoliveira1/" target="_blank"><img src="/img/desktop/btn link.svg"
+                alt="" /></a>
+          </div>
         </div>
       </div>
-      <div class="lado-direito"><img src="/img/desktop/bg-desktop.png" alt="Foto"></div>
+      <div class="lado-direito">
+        <img src="/img/mobile/BG.svg" alt="Foto" />
+      </div>
     </section>
 
     <!-- Sobre -->
-    <section id="sobre" class="">
-      <div class="section-sobre container">
-        <h1>Sobre</h1>
-        <div class="imagem"><img src="/img/desktop/foto perfil.png" alt=""></div>
-        <div class="sobre">
-          <h2>Salvador, Bahia</h2>
-          <p>Estava cursando o 5º semestre em administração e não estava satisfeita, minha paixão sempre foi
-            tecnologia, foi quando em julho de 2022 decidir mudar de carreira e seguir meus sonhos,.
-            Estou cursando Análise e Desenvolvimento de Sistemas na Unicesumar e como apoio estou me dedicando a
-            cursos e tendo a frontend mentor como minha principal experiência na prática desenvolvendo e cumprindo os
-            desafios dados.</p>
-          <a href="/img/desktop/Currículo1.pdf"><img src="/img/desktop/curriculo.svg" alt=""></a>
+    <section id="sobre" class="bg-sobre border-section">
+      
+      <div class="section-sobre">
+        <div class="imagem">
+          <img src="/img/desktop/foto perfil.png" alt="" />
         </div>
+        <div class="sobre">
+          <h1>Sobre Mim</h1>
+          <h2>Salvador, Bahia</h2>
+          <p>
+            Estava cursando o 5º semestre em administração e não estava
+            satisfeita, minha paixão sempre foi tecnologia, foi quando em
+            julho de 2022 decidir mudar de carreira e seguir meus sonhos,.
+            Estou cursando Análise e Desenvolvimento de Sistemas na Unicesumar
+            e como apoio estou me dedicando a cursos e tendo a frontend mentor
+            como minha principal experiência na prática desenvolvendo e
+            cumprindo os desafios dados.
+          </p>
+          <a href="/img/desktop/Currículo1.pdf" target="_blank"><img src="/img/desktop/curriculo.svg" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="skills border-section titulo">
+      <h1>Skills</h1>
+      <div class="divs">
+        <div class="div1"><img src="/img/desktop/html.svg" alt="" /></div>
+        <div class="div2"><img src="/img/desktop/css.svg" alt="" /></div>
+        <div class="div3"><img src="/img/desktop/js.svg" alt="" /></div>
+        <div class="div4">
+          <img src="/img/desktop/bootstrap.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portifólio -->
+    <section id="portifolio" class="portifolio border-section titulo">
+      <h1>Portifólio</h1>
+      <div class="projetos">
+        <div class="project1 project">
+          <h1>em andamento...</h1>
+        </div>
+        <div class="project1 project">
+          <h1>em andamento...</h1>
+        </div>
+        <div class="project1 project">
+          <h1>em andamento...</h1>
+        </div>
+        <div class="project1 project">
+          <h1>em andamento...</h1>
+        </div>
+        <!-- <div class="projet5 project"></div>
+          <div class="project6 project"></div>
+          <div class="project7 project"></div>
+          <div class="project8 project"></div> -->
+      </div>
+    </section>
+    <!-- Contato -->
+    <section class="contato titulo border-section">
+      <h1>contato</h1>
+      <div class="contato-item">
+        <div class="imag">
+          <img src="/img/desktop/emai.svg" alt="">
+        </div>
+       <form class="form">
+        <input type="text" name="nome" id="nome" placeholder="Nome">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <textarea name="mensagem" id="mensagem" cols="30" rows="6" placeholder="Mensagem"></textarea>
+       <button class="botao" type="submit" type="submit" >Concluído</button>
+       </form>
       </div>
 
     </section>
-
   </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <footer><p>Desenvolvido por <a class="footer" href="https://www.linkedin.com/in/leiaoliveira1/" target="_blank">Léia Oliver </a> </p></footer>
 
   <script src="/js/app.js"></script>
 </body>

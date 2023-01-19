@@ -6,24 +6,44 @@
   box-sizing: border-box;
 }
 :root{
+  --cor0:#000000;
   --cor1: #070A40;
   --cor2: #25193D;
   --cor3:#545959;
   --cor4:#F2E5BD;
   --cor5:#D9644A;
   --cor6:#A64141;
+  --cor7:#2f3030;
 }
+.titulo{
+  color: var(--cor4);
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.titulo h1 {
+  font-weight: lighter;
 
+}
+.border-section{
+  border-left: 5px solid var(--cor2);
+  border-right: 5px solid var(--cor2);
+  border-bottom: 5px solid var(--cor5);
 
+}
 html{
-  background-color: #25193D;
+  background-color: #000;
 }
  
 body{
   max-width: 1400px;
   margin:  0 auto;
-  height: 3820px;
+  height: 100vh;
   font-family: "Poppins", sans-serif ;
+}
+.project{
+  width: 90%;
 }
 
 

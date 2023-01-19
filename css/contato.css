@@ -1,0 +1,51 @@
+.contato{
+    height: 500px;
+}
+.contato-item {
+    display: flex;
+}
+.imag img{
+    height: 20rem;
+}
+.imag,
+.form{
+width: 50%;
+}
+.form{
+display: flex;
+flex-direction: column;
+width: 500px;
+margin-top: 5rem;
+
+}
+.form input{
+    height: 40px;
+    margin-bottom: 10px;   
+}
+.form input, textarea{
+    border: 3px solid var(--cor6);
+    border-radius: 4px;
+    background-color: var(--cor4);
+}
+#nome, #email, #mensagem{
+    padding-left: 10px;
+}
+.botao{
+    width: 180px;
+    height: 50px;
+    border-radius: 5PX;
+    background-color: var(--cor5);
+    border: 2PX solid var(--cor4);
+    margin-top: 10px;
+    color: var(--cor2);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 320px;
+}
+.botao:hover{
+    background-color: var(--cor3);
+}
+   
+

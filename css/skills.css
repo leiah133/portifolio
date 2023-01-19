@@ -1,0 +1,10 @@
+.skills{
+    height: 400px;
+    background: url(/img/desktop/b);
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+
+}

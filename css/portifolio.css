@@ -1,0 +1,17 @@
+.portifolio{
+    height: 300px;
+}
+.projetos{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  margin-bottom: 5rem;
+   
+
+   }
+   
+   .project1 h1{
+    color: var(--cor2);
+      font-size: 40px;
+      font-weight: bold;
+   }
