@@ -14,27 +14,27 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  width: 73%;
-  margin-left: 255px;
-  
+  width: 73.6%;
+  margin-left: 253px;
   background-color: var(--cor2);
-  box-shadow: 1px 0 10px 5px var(--cor2);
+  border-bottom: 2px solid var(--cor3);
+
 }
 nav{
   display: flex;
   align-items: center;
   justify-content:space-between;
-  margin: 10px 20px 10px 0px;
+  margin: 0px 30px 10px 0px;
   transition: 0.3s;
 }
 .nav-list{
   display: flex;
   gap: 20px;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .logo{
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .mobile-menu {
   display: none;
