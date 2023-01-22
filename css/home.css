@@ -4,8 +4,8 @@
 }
 .container{
   background-color: var(--cor2);
-  padding-top: 100px;
 }
+
 
 .intro-desktop{
   display: flex;
@@ -15,9 +15,12 @@
   width: 50%;
   
  }
+ .intro{
+  padding:80px 0 0 200px;
+ }
  .lado-direito img{
-  height: 600px;
-  margin-left: 50px;
+  height: 400px;
+  margin-left:80px;
  }
  .h1-{
   font-size: 40px;
