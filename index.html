@@ -13,29 +13,36 @@
 
 <body>
   <header>
-    <nav>
-      <a class="logo" href="index.html"><img src="/img/desktop/logo.svg" alt="" /></a>
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <div class="container-header">
+      <div class="logo">
+        <a class="logo-img" href="index.html"><img src="/img/desktop/logo.svg" alt="" /></a>
       </div>
-      <ul class="nav-list">
-        <li><a class="nav-links" href="#home">Home</a></li>
-        <li><a class="nav-links" href="#sobre">Sobre</a></li>
-        <li><a class="nav-links" href="#skills">Skills</a></li>
-        <li><a class="nav-links" href="#portifolio">Portifólio</a></li>
-        <li><a class="nav-links" href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+      <div class="navbar">
+        <nav>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a class="nav-links" href="#home">Home</a></li>
+            <li><a class="nav-links" href="#sobre">Sobre</a></li>
+            <li><a class="nav-links" href="#skills">Skills</a></li>
+            <li><a class="nav-links" href="#portifolio">Portifólio</a></li>
+            <li><a class="nav-links" href="#contato">Contato</a></li>
+          </ul>
+
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main>
     <!-- Home  -->
     <section id="home" class="container intro-desktop ">
       <div class="intro">
-        <h1 class="h1-">Eu sou <br> <span class="nome">Léia Oliver</span></h1>
-        <h2 class="h2-">Desenvolvedora <br> Front-End</h2>
+        <h1 class="h1-">Eu sou <span class="nome">Léia Oliver</span></h1>
+        <h2 class="h2-">Desenvolvedora Front-End</h2>
         <div class="rede">
           <div class="git">
             <a href="https://github.com/Leiah133" target="_blank"><img href="" src="/img/desktop/btn git.svg"
@@ -54,7 +61,7 @@
 
     <!-- Sobre -->
     <section id="sobre" class="bg-sobre ">
-      
+
       <div class="section-sobre">
         <div class="imagem">
           <img src="/img/desktop/foto perfil.png" alt="" />
@@ -117,17 +124,20 @@
         <div class="imag">
           <img src="/img/desktop/emai.svg" alt="">
         </div>
-       <form class="form">
-        <input type="text" name="nome" id="nome" placeholder="Nome">
-        <input type="email" name="email" id="email" placeholder="Email">
-        <textarea name="mensagem" id="mensagem" cols="30" rows="6" placeholder="Mensagem"></textarea>
-       <button class="botao" type="submit" type="submit" >Concluído</button>
-       </form>
+        <form class="form">
+          <input type="text" name="nome" id="nome" placeholder="Nome">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <textarea name="mensagem" id="mensagem" cols="30" rows="6" placeholder="Mensagem"></textarea>
+          <button class="botao" type="submit" type="submit">Concluído</button>
+        </form>
       </div>
 
     </section>
   </main>
-  <footer><p>Desenvolvido por <a class="footer" href="https://www.linkedin.com/in/leiaoliveira1/" target="_blank">Léia Oliver </a> </p></footer>
+  <footer>
+    <p>Desenvolvido por <a class="footer" href="https://www.linkedin.com/in/leiaoliveira1/" target="_blank">Léia Oliver
+      </a> </p>
+  </footer>
 
   <script src="/js/app.js"></script>
 </body>

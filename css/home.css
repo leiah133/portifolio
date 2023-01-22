@@ -1,10 +1,10 @@
+
 .bg-mobile{
   display: none;
 }
 .container{
   background-color: var(--cor2);
   padding-top: 100px;
- 
 }
 
 .intro-desktop{
@@ -19,16 +19,16 @@
   height: 600px;
   margin-left: 50px;
  }
- .intro{
-  margin:220px 0 0 200px;
- }
  .h1-{
   font-size: 40px;
   color: var(--cor4);
- }
+}
+ 
  .h2-{
   color: var(--cor4);
   font-size: 30px;
+  margin-bottom: 0px;
+
  }
  .nome{
   color: var(--cor5);

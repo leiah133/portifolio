@@ -27,14 +27,10 @@
   font-weight: normal;
 
 }
-html{
-  background-color: #000;
-}
- 
+
 body{
-  max-width: 1400px;
-  margin:  0 auto;
-  height: 100vh;
+ max-width: 1400px;
+ margin:  0 auto;
   font-family: "Poppins", sans-serif ;
 }
 .project{
