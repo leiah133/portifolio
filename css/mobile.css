@@ -53,6 +53,9 @@
       justify-content: center;
       align-items: stretch;
     }
+    .intro{
+      margin-left: 30px;
+    }
      .lado-direito img {
       width:fit-content;
       height:350px
@@ -134,6 +137,54 @@ font-size: 14px;
 
 
 /* SOBRE */
+@media(max-width: 768px){
+  .section-sobre{
+    padding-top: 30px;
+
+  }
+ .imagem, .sobre{
+  width: auto;
+  gap: 10px;
+  margin-left: 30px;
+ }
+ .imagem img{
+  height: 300px;
+  margin: 0;
+  padding: 0;
+ }
+ .curriculo img{
+  width: 200px;
+  height: 150px;
+  
+ }
+ .sobre{
+  padding: 0;
+  margin: 0 0 0 10px;
+  
+ }
+ .sobre p{
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+  text-align:start;
+ }
+}
+@media (max-width: 680px){
+  .bg-sobre{
+    height: 67rem;
+  }
+
+  .section-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sobre{
+    margin-left: 30px;
+    text-align: left;
+    align-items: center;
+  }
+}
 @media(max-width: 425px){
   .bg-sobre {
     height: 67rem;
@@ -158,6 +209,7 @@ font-size: 14px;
 
   .sobre p{
     margin: 0;
+    font-size: 20px;
   }
 
   .sobre a img{
