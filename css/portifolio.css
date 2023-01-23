@@ -5,16 +5,19 @@
 }
 .projetos{
     display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10%;
-  margin-bottom: 5rem;
+  grid-template-columns: .35fr .35fr;
+  margin: 5rem 0 0 15rem;
+  padding: 10px 30px;
    }
    .project1{
-    border: 1px solid var(--cor5);
+    border: 1px solid var(--cor4);
+    margin-bottom: 20px;
    }
    
    .project1 h1{
     color: var(--cor5);
-      font-size: 40px;
-      font-weight: bold;
+      font-size: 20px;
+      font-weight: 200;
+      text-transform: capitalize;
    }
+   
