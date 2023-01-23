@@ -276,6 +276,9 @@ font-size: 14px;
 
 /* CONTATO */
 @media (max-width:992px){
+  .contato{
+    height: 400px;
+  }
   .imag{
     display: none;
   }
