@@ -1,0 +1,82 @@
+/* HOME */
+
+@media (max-width: 1055px) {
+  .intro{
+    padding-left: 4rem;
+  }
+  .h2-{
+    font-size: 2em;
+  }
+
+}
+@media (max-width: 992px) {
+  .intro{
+    padding: 12rem 0 0 1rem;
+  }
+  .h1-{
+    font-size: 2em;
+  }
+  .h2-{
+    font-size: 1.5em;
+  }
+ 
+
+  }
+  @media (max-width: 768px) {
+    .intro{
+      padding: 5rem 1rem;
+    }
+   .lado-direito{
+    display: none;
+   }
+  }
+
+/* SOBRE */
+@media (max-width: 992px){
+  .imagem, .sobre{
+    padding: 2rem 1rem;
+  }
+  
+}
+@media(max-width: 768px){
+  .section-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+  }
+  .imagem img{
+    position: absolute;
+    height: 10rem;
+    right: 0;
+  }
+}
+/* SKILLS */
+
+@MEDIA (max-width:768px){
+ 
+  .div1 img{
+    height: 6rem;
+  }
+}
+
+@media (max-width: 480px){
+  /* .divs{
+    display: flex;
+    flex-direction: column;
+  } */
+  .divs{
+    padding: 2rem 1rem;
+  }
+  .div1 img{
+    height: 5rem;
+  }
+}
+/* PORTIFOLIO */
+@media (max-width: 430px){
+  .projetos
+  {padding: 2rem 1.5rem 4rem;
+  }
+  .project1 h1{
+     font-size:.80em ;
+  }
+}

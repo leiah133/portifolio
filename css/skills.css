@@ -1,10 +1,10 @@
 .skills{
-    height: 400px;
     background: url(/img/desktop/bg\ 3.svg);
 }
 .divs{
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 4.4rem;
 
 }
+

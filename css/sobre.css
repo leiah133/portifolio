@@ -1,45 +1,33 @@
-
 .bg-sobre{
-  height: 600px;
-  background-color: var(--cor0);
+    background-color: var(--cor7);
 }
-
 .section-sobre{
-  display: flex;
-}
-.imagem{
-  width: 40%;
-}
-.sobre{
-  width: 60%;
-  margin: 100px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .imagem img{
-  height: 400px;
-  margin: 100px 0 0 110px;
+    height: 25rem;
+}
+.sobre{
+    flex: 1;
+}
+.sobre, .imagem{
+     padding: 2rem 4rem;
 }
 .sobre h1{
-  color: var(--cor4);
-  text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 0.05em;
-
+    font-size: 3em;
+    color: var(--cor4);
 }
 .sobre h2{
-  color: var(--cor5);
-  font-weight: 400;
+    font-size: 1.5em;
+    color: var(--cor6);
 }
 .sobre p{
-  color: var(--cor4);
-  line-height: 1.7rem;
-  text-align: justify;
-  margin-right: 50px;
-}
-.sobre h1, h2, p{
-  margin-bottom: 20px;
+    color: var(--cor4);
+    font-weight: 300;
 }
 .sobre a img{
-  float:right;
-  height: 50px;
-  margin-right: 50px;
+    height: 3rem;
+    margin-top: 1rem;
 }
