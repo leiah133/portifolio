@@ -78,7 +78,7 @@
     top: 37px;
     right: 0;
     width: 50%;
-    height: 92vh;
+    height: 98vh;
     background: var(--cor2);
     flex-direction: column;
     align-items: center;
@@ -87,6 +87,7 @@
     transition: transform 0.3s ease-in;
     margin-top: 50px;
     display: none;
+    z-index: 1;
    
   }
   .nav-list li{
