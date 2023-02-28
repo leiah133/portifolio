@@ -60,8 +60,8 @@ const Portifolio = () => {
                 <div className='flex items-center justify-center'>
                     
                     
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'><a href={demo} target="_blank" > Demo</a></button>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200  hover:scale-110'><a href={code} target="_blank" > GitHub </a> </button>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'><a href={demo} target="_blank" rel="noreferrer" > Demo</a></button>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200  hover:scale-110'><a href={code} target="_blank" rel="noreferrer" > GitHub </a> </button>
                 </div>
               </div>
               ))
