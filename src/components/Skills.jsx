@@ -41,7 +41,7 @@ const Skills = () => {
  ]
 
   return (
-    <div name='skills' className='bg-gray-900 w-full h-full'>
+    <div id='skills' className='bg-gray-900 w-full h-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
 

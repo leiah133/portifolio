@@ -1,5 +1,5 @@
 import React from 'react'
-import Calculadora from '../assets/portifolio/calculadora1.png'
+import Calculadora from '../assets/portifolio/calculadora2.png'
 import Producao from'../assets/em-producao.png'
 
 
@@ -40,7 +40,7 @@ const Portifolio = () => {
   ]
 
   return (
-    <div name='portifolio' className='bg-gray-900 w-full text-white'>
+    <div id='portifolio' className='bg-gray-900 w-full text-white'>
         <div  className='flex flex-col p-4 mx-auto max-w-screen-lg justify-center w-full h-full'>
             <div className='pb-8'>
                <p className='text-4xl font-bold inline border-b-4 border-orange-500'>Portifólio</p> 
@@ -55,7 +55,7 @@ const Portifolio = () => {
                 src={src} 
                 alt="previw do projeto" 
                 className='rounded-md duration-200 hover:scale-105' />
-                <p className=' px-6 text-orange-300 text-xl pt-3'>{title}</p>
+                <p className=' text-center text-orange-300 text-xl pt-3'>{title}</p>
                 
                 <div className='flex items-center justify-center'>
                     

@@ -3,7 +3,7 @@ import MyFoto from '../assets/foto-perfil.png';
 
 const Sobre = () => {
     return (
-        <div nome='sobre' className='bg-gray-900 w-full  mx-auto flex flex-col  items-center justify-center h-full px-4   text-white'>
+        <div id='sobre' className='bg-gray-900 w-full  mx-auto flex flex-col  items-center justify-center h-full px-4   text-white'>
 
             <div className=' max-w-screen-lg  mx-auto  flex flex-col  justify-center h-full px-4 py-11' >
                 <div className='mb-4 '>
