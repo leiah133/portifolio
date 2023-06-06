@@ -17,7 +17,7 @@ const Header = () => {
         },
         {
             id:3,
-            link: 'portifolio'
+            link: 'portfolio'
         },
         {
             id:4,

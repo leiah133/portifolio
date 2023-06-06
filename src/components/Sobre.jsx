@@ -13,7 +13,7 @@ const Sobre = () => {
                     <img src={MyFoto} alt="minha foto" className='max-md:h-52 max-md:w-36 max-md:ml-16 h-22 w-22 shadow-orange-500' />
 
 
-                    <p className="text-xl md:mt-28 ml-5">Estava cursando o 5º semestre em administração e não estava satisfeita, minha paixão sempre foi tecnologia, foi quando em julho de 2022 decidir mudar de carreira e seguir meus sonhos. <br></br> Estou cursando Análise e Desenvolvimento de Sistemas na Unicesumar e como apoio estou me dedicando a cursos e tendo a frontendmentor como minha principal experiência na prática desenvolvendo e cumprindo os desafios dados.</p>
+                    <p className="text-xl md:mt-28 ml-5">Estava cursando o 5º semestre em administração e não estava satisfeita, minha paixão sempre foi tecnologia, foi quando em julho de 2022 decidi mudar de carreira e seguir meus sonhos. <br></br> Estou cursando Análise e Desenvolvimento de Sistemas na Unicesumar e como apoio estou me dedicando a cursos e tendo a frontendmentor como minha principal experiência na prática desenvolvendo e cumprindo os desafios dados.</p>
 
 
                 </div>
