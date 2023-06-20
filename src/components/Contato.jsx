@@ -26,7 +26,7 @@ const Contato = () => {
                             rows="10"
                             className='bg-transparent my-4 border-2 p-2 rounded-md text-white focus:outline-none'></textarea>
                         <button
-                            className='text-white bg-orange-400 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 '>
+                            className='text-white bg-orange-400 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 ' formTarget='_blank'>
                             Enviar
                         </button>
                     </form>
