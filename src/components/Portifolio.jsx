@@ -2,6 +2,7 @@ import React from 'react'
 import Calculadora from '../assets/portifolio/calculadora2.png'
 import Producao from'../assets/em-producao.png'
 import Desktop from '../assets/portifolio/desktop1.png'
+import WealtherApp from '../assets/portifolio/WeatherApp.png'
 
 
 const Portifolio = () => {
@@ -22,8 +23,10 @@ const Portifolio = () => {
     },
     {
       id: 3,
-      src: Producao,
-      title: 'Em Breve',
+      src: WealtherApp,
+      title: 'ClimaAgora',
+      demo: 'https://weather-app-flame-alpha.vercel.app/wheater',
+      code: 'https://github.com/leiah133/weather-app'
     },
     {
       id: 4,

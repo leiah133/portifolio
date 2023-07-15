@@ -4,6 +4,8 @@ import css from '../assets/css.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
+import angular from '../assets/angular.png'
+
 
 
 const Skills = () => {
@@ -36,6 +38,12 @@ const Skills = () => {
         id:5,
         src: github,
         title: 'GITHUB',
+        style: 'shadow-gray-400'
+    },
+    {
+        id:6,
+        src: angular,
+        title: 'ANGULAR',
         style: 'shadow-gray-400'
     },
  ]
