@@ -1,5 +1,5 @@
 import React from 'react'
-import Map from './Map'
+
 
 const Contato = () => {
     return (
@@ -32,9 +32,7 @@ const Contato = () => {
                     </form>
                    
                 </div>
-                <div className='w-5/12 -mt-10  right-1 absolute max-2xl:hidden'>
-                    <Map />
-                </div>
+                
             </div>
         </div>
     )
